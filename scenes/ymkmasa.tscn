@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddtlok5h7kstj"]
+
+[ext_resource type="Texture2D" uid="uid://gfvjatdtsy6w" path="res://assets/yemekmasa.png" id="1_p76w2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_em6pc"]
+size = Vector2(27, 38)
+
+[node name="ymkmasa" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(18, 25)
+texture = ExtResource("1_p76w2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(18.5, 22)
+shape = SubResource("RectangleShape2D_em6pc")

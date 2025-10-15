@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgpquo6yn2qxs"]
+
+[ext_resource type="Texture2D" uid="uid://5swgq6h783a4" path="res://assets/masa.png" id="1_7jikr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pw5pi"]
+size = Vector2(16, 15)
+
+[node name="masa" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(15, 16)
+texture = ExtResource("1_7jikr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(15, 14)
+shape = SubResource("RectangleShape2D_pw5pi")

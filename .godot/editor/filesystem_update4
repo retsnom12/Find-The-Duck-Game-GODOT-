@@ -1,0 +1,8 @@
+res://scenes/game.tscn
+res://scenes/duck.tscn
+res://scripts/duck.gd
+res://scripts/gamemanager.gd
+res://scenes/balik.tscn
+res://scenes/masa.tscn
+res://scenes/ymkmasa.tscn
+res://scenes/tablo.tscn

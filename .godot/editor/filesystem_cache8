@@ -1,0 +1,27 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1727403099
+icon.svg::CompressedTexture2D::3345144265436240946::1727391028::1727391036::1::::<><>::
+::res://assets/::1727400700
+Bagura Bold.ttf::FontFile::6274562567992224607::1723712940::1727397313::1::::<><>::
+balik.png::CompressedTexture2D::2425005449767556480::1727400644::1727400700::1::::<><>::
+ducks.png::CompressedTexture2D::1247490197757920851::1727394349::1727394354::1::::<><>::
+masa.png::CompressedTexture2D::2144171485943018421::1727400576::1727400700::1::::<><>::
+sandalye.png::CompressedTexture2D::8047027830537932209::1727400607::1727400700::1::::<><>::
+tablos.png::CompressedTexture2D::208823536217470297::1727400542::1727400700::1::::<><>::
+yemekmasa.png::CompressedTexture2D::432746109105449844::1727400695::1727400700::1::::<><>::
+::res://assets/Top-Down_Retro_Interior/::1727392269
+TopDownHouse_DoorsAndWindows.png::CompressedTexture2D::6328157426195026160::1727391942::1727391948::1::::<><>::
+TopDownHouse_FloorsAndWalls.png::CompressedTexture2D::4049016910563524255::1727391942::1727391948::1::::<><>::
+TopDownHouse_FurnitureState1.png::CompressedTexture2D::6235041068769378378::1727391942::1727391948::1::::<><>::
+TopDownHouse_FurnitureState2.png::CompressedTexture2D::3220544608868030964::1727391942::1727391948::1::::<><>::
+TopDownHouse_SmallItems.png::CompressedTexture2D::1663257773136501708::1727391942::1727391948::1::::<><>::
+::res://scenes/::1727401688
+balik.tscn::PackedScene::5967679925613359375::1727401561::0::1::::<><>::uid://basxqrgrujjm3::::res://assets/balik.png
+duck.tscn::PackedScene::8346898625164892136::1727401688::0::1::::<><>::uid://r1j8mm42ms0j::::res://assets/ducks.png<>res://scripts/duck.gd
+game.tscn::PackedScene::1660625511309265854::1727401580::0::1::::<><>::uid://bxxmym16x1n7l::::res://assets/Top-Down_Retro_Interior/TopDownHouse_FloorsAndWalls.png<>res://scripts/gamemanager.gd<>uid://cwfn3fpxypp2g::::res://assets/Top-Down_Retro_Interior/TopDownHouse_DoorsAndWindows.png<>uid://cu3khlcd50olu::::res://assets/Top-Down_Retro_Interior/TopDownHouse_FurnitureState1.png<>uid://bl5b5tpnn3mye::::res://assets/Top-Down_Retro_Interior/TopDownHouse_FurnitureState2.png<>uid://xxxu3coukxiq::::res://assets/Top-Down_Retro_Interior/TopDownHouse_SmallItems.png<>uid://dq6kg3gtsehx5::::res://scenes/duck.tscn<>uid://cvnpem4fxaflf::::res://assets/Bagura Bold.ttf<>uid://bgpquo6yn2qxs::::res://scenes/masa.tscn<>uid://cra1204frg4sx::::res://scenes/balik.tscn<>uid://ddtlok5h7kstj::::res://scenes/ymkmasa.tscn<>uid://c6yrmgf88gswj::::res://scenes/tablo.tscn
+masa.tscn::PackedScene::2839527383919295304::1727401561::0::1::::<><>::uid://5swgq6h783a4::::res://assets/masa.png
+tablo.tscn::PackedScene::6999294529074377693::1727401561::0::1::::<><>::uid://c8fj74i31baf::::res://assets/tablos.png
+ymkmasa.tscn::PackedScene::7409745219294494855::1727401561::0::1::::<><>::uid://gfvjatdtsy6w::::res://assets/yemekmasa.png
+::res://scripts/::1727401519
+duck.gd::GDScript::-1::1727397065::0::1::::<>Area2D<>::
+gamemanager.gd::GDScript::-1::1727401519::0::1::::<>Node<>::
